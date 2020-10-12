@@ -1,5 +1,13 @@
 .uch-Carousel {
-    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .uch-Month-card {

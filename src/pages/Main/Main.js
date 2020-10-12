@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import Modal from '../../components/Modal';
 import CarouselCard from '../../components/CarouselCard/CarouselCard';
+import MonthBar from './MonthBar/MonthBar';
+import readImage from '../../assets/images/kingdom-1431.png';
+import graphicImage from '../../assets/images/kingdom-1431.png';
+import otherImage from '../../assets/images/kingdom-1122.png';
+import otraImage from '../../assets/images/kingdom-1431.png';
 import './Main.css';
 
 const classes = {
@@ -13,11 +18,11 @@ export default class Main extends Component {
     render() {
         return (
             <main className="overflow-hidden uch-Main-private">
-                <section className="inline-flex uch-Carousel">
-                    <CarouselCard />
-                    <CarouselCard />
-                    <CarouselCard />
-                    <CarouselCard />
+                <section className="uch-Carousel">
+                    <CarouselCard title="Read" image={readImage} alt="read"/>
+                    <CarouselCard title="Graphic" image={graphicImage} alt="graphic"/>
+                    <CarouselCard title="Other" image={otherImage} alt="graphic" />
+                    <CarouselCard title="Otra" image={otraImage} alt="graphic" />
                 </section>
                 <section className="mx-2 my-4 main-balance uch-Main-month">
                     <h4 className="mb-1 text-xl">October 2020</h4>
@@ -39,14 +44,18 @@ export default class Main extends Component {
                 </section>
                 <section className="mx-2 uch-Main-year">
                     <h4 className="mb-1 text-xl">My year</h4>
-                    <div>
-                        <div className="w-2 h-20">    
-                            <p className="h-4 uch-Earned"></p>
-                            <p className="h-4 uch-Spent"></p>
-                            <p className="h-4 uch-ROI "></p>
-                        </div>
-                        <span>J</span>
-                    </div>
+                    <MonthBar month="J"/>
+                    <MonthBar month="F"/>
+                    <MonthBar month="M"/>
+                    <MonthBar month="A"/>
+                    <MonthBar month="M"/>
+                    <MonthBar month="J"/>
+                    <MonthBar month="J"/>
+                    <MonthBar month="A"/>
+                    <MonthBar month="S"/>
+                    <MonthBar month="O"/>
+                    <MonthBar month="N"/>
+                    <MonthBar month="D"/>
                 </section>
                 <Modal />
             </main>
