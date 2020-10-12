@@ -1,0 +1,37 @@
+.uch-Carousel {
+    overflow-x: auto;
+}
+
+.uch-Month-card {
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.15);
+}
+
+.uch-Line {
+    color: var(--dark-gray);
+    height: 3px;
+}
+
+.uch-Bright-blue {
+    color: var(--bright-blue);
+}
+
+.uch-Red {
+    color: var(--primary-red);
+}
+
+.uch-Orange {
+    color: var(--primary-orange);
+}
+
+.uch-Earned {
+    background-color: var(--bright-blue);
+}
+  
+.uch-Spent {
+    background-color: var(--primary-red);
+}
+  
+.uch-ROI {
+    background-color: var(--primary-orange);
+}
+  

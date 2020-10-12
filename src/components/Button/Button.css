@@ -1,0 +1,8 @@
+.uch-Button-primary {
+    background-color: var(--primary);
+    color: white;
+
+    &:hover {
+
+    }
+}

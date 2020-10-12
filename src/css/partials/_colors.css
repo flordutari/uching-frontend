@@ -1,0 +1,31 @@
+:root {
+    /* UI main color scale */
+    --primary-orange: #FF9B19;
+    --primary-red: #FF564F;
+    --bright-blue: #002AE3;
+    --rose: #FFE3E2;
+    --primary: #022E43;
+
+    /* Grayscale */
+    --darkest-gray: #324A58;
+    --dark-gray: #425C6B;
+    --light-gray: #818993;
+    --lightest-gray: #C0B6BB;
+
+    /* Status colors */
+    --success-light: #e9f7ee;
+    --success: #5fd6a8;
+    --success-dark: #3f9b78;
+
+    --info-light: #8cc2ff;
+    --info: #609de4;
+    --info-dark: #4074af;
+
+    --warning-light: #ffdcb4;
+    --warning: #f8b76c;
+    --warning-dark: #ff9e2e;
+
+    --danger-light: #ffa99e;
+    --danger: #f47a69;
+    --danger-dark: #b43e2f;
+}

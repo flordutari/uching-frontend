@@ -1,0 +1,9 @@
+.uch-Input {
+    border: 1px solid var(--light-gray);
+    outline: none;
+
+}
+
+.uch-Input:focus {
+    border: 1px solid var(--primary);
+}

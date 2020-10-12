@@ -1,0 +1,9 @@
+:root {
+  --font-family: 'Lato', Helvetica, Arial, sans-serif;
+  /* Font colors */
+  /*
+  --font-color-highlight: var(--black); /* As his own name indicates, this should be the most bold color to highlight text like big titles for example */
+  /*  --font-color-default: var(--gray-medium); /* This means the default color for readable text (the one most commonly used) */
+   /* --font-color-lowlight: var(--gray-light); /* This is used for barely readable texts like disclaimers for example */
+  
+}

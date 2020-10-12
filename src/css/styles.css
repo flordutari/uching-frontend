@@ -1,0 +1,31 @@
+[v-cloak] { display: none !important; }
+
+@import './vendors/tailwind.css';
+
+/* Custom default variables and styles */
+@import './partials/_colors.css';
+@import './partials/_typography.css';
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: var(--font-family);
+    color: var(--primary);
+    height: 100vh;
+}
+
+.uch-Main-public {
+    margin: 60px 40px;
+    line-height: 1.25;
+}
+
+.uch-Main-private {
+    margin: 25px 30px;
+}
+
+.uch-Overline {
+    background-color: var(--primary-red);
+    height: 0.4rem;
+    width: 55%;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
